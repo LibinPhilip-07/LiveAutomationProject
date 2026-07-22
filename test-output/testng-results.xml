@@ -2,46 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-22T12:37:16 NZST" name="Default suite" finished-at="2026-07-22T12:41:03 NZST" duration-ms="226586">
+  <suite started-at="2026-07-22T16:01:26 NZST" name="Default suite" finished-at="2026-07-22T16:01:48 NZST" duration-ms="21302">
     <groups>
     </groups>
-    <test started-at="2026-07-22T12:37:16 NZST" name="Default test" finished-at="2026-07-22T12:41:03 NZST" duration-ms="226586">
-      <class name="tutorilsnija.register.TC_Reg_018">
-        <test-method signature="verifyRegAccFirldHghtWdthEtc()[pri:0, instance:tutorilsnija.register.TC_Reg_018@a1153bc]" started-at="2026-07-22T12:37:16 NZST" name="verifyRegAccFirldHghtWdthEtc" finished-at="2026-07-22T12:41:03 NZST" duration-ms="226403" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+    <test started-at="2026-07-22T16:01:26 NZST" name="Default test" finished-at="2026-07-22T16:01:48 NZST" duration-ms="21302">
+      <class name="tutorilsnija.register.TC_Reg_019">
+        <test-method signature="verifyLeadingAndTrailingSpacesEnteredIntoRegAcc()[pri:0, instance:tutorilsnija.register.TC_Reg_019@5656be13]" started-at="2026-07-22T16:01:27 NZST" name="verifyLeadingAndTrailingSpacesEnteredIntoRegAcc" finished-at="2026-07-22T16:01:47 NZST" duration-ms="20384" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=150.0.7871.125)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eae61f805602ce416e233e5a6d8d6e1f, findElement {value=//*[@id="top-links"]/ul/li[2]/a/span[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\LIBINP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60359}, goog:processID: 12860, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60359/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: eae61f805602ce416e233e5a6d8d6e1f]]>
+              <![CDATA[expected [Jokkuttan] but found [  Jokkuttan ]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=150.0.7871.125)
-Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eae61f805602ce416e233e5a6d8d6e1f, findElement {value=//*[@id="top-links"]/ul/li[2]/a/span[1], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.125, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\LIBINP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60359}, goog:processID: 12860, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60359/devtoo..., se:cdpVersion: 150.0.7871.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: eae61f805602ce416e233e5a6d8d6e1f
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:575)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:396)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:390)
-at tutorilsnija.register.TC_Reg_018.verifyRegAccFirldHghtWdthEtc(TC_Reg_018.java:20)
+              <![CDATA[java.lang.AssertionError: expected [Jokkuttan] but found [  Jokkuttan ]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at tutorilsnija.register.TC_Reg_019.verifyLeadingAndTrailingSpacesEnteredIntoRegAcc(TC_Reg_019.java:44)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -70,11 +49,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegAccFirldHghtWdthEtc -->
-      </class> <!-- tutorilsnija.register.TC_Reg_018 -->
+        </test-method> <!-- verifyLeadingAndTrailingSpacesEnteredIntoRegAcc -->
+        <test-method is-config="true" signature="closeBrwsr()[pri:0, instance:tutorilsnija.register.TC_Reg_019@5656be13]" started-at="2026-07-22T16:01:47 NZST" name="closeBrwsr" finished-at="2026-07-22T16:01:48 NZST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrwsr -->
+      </class> <!-- tutorilsnija.register.TC_Reg_019 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
