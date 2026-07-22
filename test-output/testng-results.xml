@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-06T20:45:48 NZST" name="Default suite" finished-at="2026-07-06T20:45:57 NZST" duration-ms="8693">
+  <suite started-at="2026-07-20T11:27:08 NZST" name="Default suite" finished-at="2026-07-20T11:27:18 NZST" duration-ms="9525">
     <groups>
     </groups>
-    <test started-at="2026-07-06T20:45:48 NZST" name="Default test" finished-at="2026-07-06T20:45:57 NZST" duration-ms="8693">
-      <class name="tutorilsnija.register.TC_Reg_009">
-        <test-method signature="verifyRegAccUsingExixstingAcc()[pri:0, instance:tutorilsnija.register.TC_Reg_009@5c6648b0]" started-at="2026-07-06T20:45:48 NZST" name="verifyRegAccUsingExixstingAcc" finished-at="2026-07-06T20:45:57 NZST" duration-ms="8633" status="PASS">
+    <test started-at="2026-07-20T11:27:08 NZST" name="Default test" finished-at="2026-07-20T11:27:18 NZST" duration-ms="9525">
+      <class name="tutorilsnija.register.TC_Reg_018">
+        <test-method signature="verifyRegAccFirldHghtWdthEtc()[pri:0, instance:tutorilsnija.register.TC_Reg_018@a1153bc]" started-at="2026-07-20T11:27:08 NZST" name="verifyRegAccFirldHghtWdthEtc" finished-at="2026-07-20T11:27:18 NZST" duration-ms="9469" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegAccUsingExixstingAcc -->
-      </class> <!-- tutorilsnija.register.TC_Reg_009 -->
+        </test-method> <!-- verifyRegAccFirldHghtWdthEtc -->
+      </class> <!-- tutorilsnija.register.TC_Reg_018 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
