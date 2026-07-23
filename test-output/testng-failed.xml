@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorilsnija.register.TC_Reg_019">
+      <class name="tutorilsnija.register.TC_Reg_021">
         <methods>
-          <include name="closeBrwsr"/>
-          <include name="verifyLeadingAndTrailingSpacesEnteredIntoRegAcc"/>
+          <include name="vefifyRegAccWithoutSelectPrivacyPolicy"/>
         </methods>
-      </class> <!-- tutorilsnija.register.TC_Reg_019 -->
+      </class> <!-- tutorilsnija.register.TC_Reg_021 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

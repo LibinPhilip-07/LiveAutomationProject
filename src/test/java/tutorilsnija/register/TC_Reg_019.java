@@ -46,6 +46,7 @@ public class TC_Reg_019 {
 		Assert.assertEquals(driver.findElement(By.xpath("input-email")).getAttribute("Value"), eMail.trim());
 		Assert.assertEquals(driver.findElement(By.id("input-telephone")).getAttribute("value"), telPhone.trim());
 	
+	
 	}
 
 }
