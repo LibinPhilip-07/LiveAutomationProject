@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-23T13:01:47 NZST" name="Default suite" finished-at="2026-07-23T13:01:52 NZST" duration-ms="4969">
+  <suite started-at="2026-07-24T15:37:10 NZST" name="Default suite" finished-at="2026-07-24T15:37:30 NZST" duration-ms="19792">
     <groups>
     </groups>
-    <test started-at="2026-07-23T13:01:47 NZST" name="Default test" finished-at="2026-07-23T13:01:52 NZST" duration-ms="4969">
-      <class name="tutorilsnija.register.TC_Reg_022">
-        <test-method signature="verifyRegAccPswdFieldisToggledVisibility()[pri:0, instance:tutorilsnija.register.TC_Reg_022@31304f14]" started-at="2026-07-23T13:01:47 NZST" name="verifyRegAccPswdFieldisToggledVisibility" finished-at="2026-07-23T13:01:52 NZST" duration-ms="4908" status="PASS">
+    <test started-at="2026-07-24T15:37:10 NZST" name="Default test" finished-at="2026-07-24T15:37:30 NZST" duration-ms="19792">
+      <class name="tutorilsnija.register.TC_Reg_023">
+        <test-method signature="verifyWorkingofEveryLinkInRegAcc()[pri:0, instance:tutorilsnija.register.TC_Reg_023@31304f14]" started-at="2026-07-24T15:37:10 NZST" name="verifyWorkingofEveryLinkInRegAcc" finished-at="2026-07-24T15:37:30 NZST" duration-ms="19707" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegAccPswdFieldisToggledVisibility -->
-      </class> <!-- tutorilsnija.register.TC_Reg_022 -->
+        </test-method> <!-- verifyWorkingofEveryLinkInRegAcc -->
+      </class> <!-- tutorilsnija.register.TC_Reg_023 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
